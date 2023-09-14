@@ -34,6 +34,7 @@ extension PaymentIntentsStatusExtension on PaymentIntentsStatus {
       case 'RequiresPaymentMethod':
       case 'requires_payment_method':
         return PaymentIntentsStatus.RequiresPaymentMethod;
+      case 'requiresConfirmation':
       case 'RequiresConfirmation':
       case 'requires_confirmation':
         return PaymentIntentsStatus.RequiresConfirmation;
